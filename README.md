@@ -3,10 +3,10 @@ NetworkManager supports WiFi powersaving but the function is rather undocumented
 
 From the source code: wifi.powersave can have the following value:
 
-NM_SETTING_WIRELESS_POWERSAVE_DEFAULT (0): use the default value
-NM_SETTING_WIRELESS_POWERSAVE_IGNORE (1): don't touch existing setting
-NM_SETTING_WIRELESS_POWERSAVE_DISABLE (2): disable powersave
-NM_SETTING_WIRELESS_POWERSAVE_ENABLE (3): enable powersave
+NM_SETTING_WIRELESS_POWERSAVE_DEFAULT (0): use the default value\
+NM_SETTING_WIRELESS_POWERSAVE_IGNORE (1): don't touch existing setting\
+NM_SETTING_WIRELESS_POWERSAVE_DISABLE (2): disable powersave\
+NM_SETTING_WIRELESS_POWERSAVE_ENABLE (3): enable powersave\
 Then I propose 2 files, only one of them needs to be put under /etc/NetworkManager/conf.d/.
 One is forcing to disable powersaving, while the other one enable it.
 
