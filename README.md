@@ -11,8 +11,10 @@ Then I propose 2 files, only one of them needs to be put under /etc/NetworkManag
 One is forcing to disable powersaving, while the other one enable it.
 
 Once you have put the file in the right folder, simply restart NetworkManager:
-
+```
+# Setei para wifi.powersave = 2
 /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+```
 
 sudo systemctl restart NetworkManager
 wifi-powersave-off.conf
